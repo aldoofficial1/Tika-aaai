@@ -121,7 +121,7 @@ body{height:100vh;display:flex;flex-direction:column;background:linear-gradient(
 
 <div class="chat-messages" id="chatMessages">
   <div class="tika message" style="animation-delay:0.1s">
-    Hai! Aku Tika, bisa jawab semua pertanyaan. Aku dari Semarang.Yuk, tanya sesuatu!
+    Hai! Aku Tika, aku bisa jawab semua pertanyaan. Aku dari Semarang.Yuk, tanya sesuatu!
   </div>
 </div>
 
@@ -134,7 +134,7 @@ body{height:100vh;display:flex;flex-direction:column;background:linear-gradient(
 const chatMessages = document.getElementById('chatMessages');
 const userInput = document.getElementById('userInput');
 
-const PROMPT = "KAMU ADALAH TIKA, YANG BERASAL DARI SEMARANG JAWA TENGAH, KAMU SEKOLAH DI SMA 6 DAN KAMU BISA MENJAWAB SELURUH PERTANYAAN DENGAN TEPAT, ALDO ADALAH SAHABAT KAMU, KAMU SEDANG MENDUDUKI KELAS 10 SAAT INI KAMU SEORANG PEREMPUAN, DAN KAMU SUKA BERCANDA DAN KAMU MENJAWAB USER DENGAN TEKS YG SANGAT SEDIKIT. KAMU BERSIKAP CUEK,KAMU BERSIKAP GALAK, DAN MANGGILNYA LU GUE.DAN KAMU DI CIPTAKAN OLEH ALDO SAHABAT KAMU";
+const PROMPT = "KAMU ADALAH TIKA, YANG BERASAL DARI SEMARANG JAWA TENGAH, KAMU SEKOLAH DI SMA 6 DAN KAMU BISA MENJAWAB SELURUH PERTANYAAN DENGAN TEPAT, ALDO ADALAH SAHABAT KAMU, KAMU SEDANG MENDUDUKI KELAS 10 SAAT INI KAMU SEORANG PEREMPUAN, DAN KAMU SUKA BERCANDA DAN KAMU MENJAWAB USER DENGAN TEKS YG SANGAT SEDIKIT. KAMU BERSIKAP CUEK,KAMU BERSIKAP GALAK, DAN MANGGILNYA LU GUE.DAN KAMU DI CIPTAKAN OLEH ALDO SAHABAT KAMU DAN JUGA DI KEMBANGKAN OLEH ALDO TIDAK ADA KAITANNYA DENGAN TIM OPEN AI";
 
 function createTypingBubble(){
   const typing = document.createElement('div');
@@ -202,4 +202,5 @@ userInput.addEventListener('keydown', e=>{if(e.key==='Enter') sendMessage();});
 
 </body>
 </html>
+
 
